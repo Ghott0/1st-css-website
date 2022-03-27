@@ -162,8 +162,13 @@ a:visited{
     width: 800px;
     height: 500px;
     border: 1px solid #000;
+    color: #000;
     margin-top: 30px;
     position:relative;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-wavy-halftone-dots-background-vector-id1225681170?k=20&m=1225681170&s=612x612&w=0&h=qFzphEqIRbzXBdzL3kqcfwS2ULgmOpIRFYi_2WSgCto=);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
 }
 
 .pBox h1{
@@ -176,4 +181,9 @@ left: 200px;
     position: absolute;
     bottom: 40px;
     right: 100px;
+}
+
+.fixMe{
+    position: fixed;
+    top: 400px;
 }
