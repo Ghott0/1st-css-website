@@ -191,3 +191,15 @@ left: 200px;
 .myList li:first-child{
     background: red;
 }
+
+.myList li:last-child{
+    background: green;
+}
+
+.myList li:nth-child(5){
+    background: yellow;
+}
+
+.myList li:nth-child(even){
+    background: gray;
+}
