@@ -187,3 +187,7 @@ left: 200px;
     position: fixed;
     top: 400px;
 }
+
+.myList li:first-child{
+    background: red;
+}
